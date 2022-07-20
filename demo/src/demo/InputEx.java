@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class InputEx {
 	public static void main(String[] args) {
+		System.out.print("hello");
 		try {
 			FileInputStream input = new FileInputStream("target/input1.txt");
 			int i=0;
